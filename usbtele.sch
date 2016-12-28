@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:usbtele-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,14 +36,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "2016-12-15"
+Title "USB FrSky SmartPort adapter"
+Date "2016-12-28"
 Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "https://github.com/mirkix/USBtele"
 $EndDescr
 $Comp
 L FT232RL U1
@@ -56,7 +57,7 @@ F 3 "" H 5200 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_A P1
+L USB_A-RESCUE-usbtele P1
 U 1 1 5841DF82
 P 3650 3200
 F 0 "P1" H 3850 3000 50  0000 C CNN
@@ -325,7 +326,7 @@ $EndComp
 Wire Wire Line
 	7350 2600 7350 2750
 $Comp
-L LED D1
+L LED-RESCUE-usbtele D1
 U 1 1 5852604F
 P 7350 3450
 F 0 "D1" H 7350 3550 50  0000 C CNN
@@ -336,7 +337,7 @@ F 3 "" H 7350 3450 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-usbtele D2
 U 1 1 585260C4
 P 7750 3450
 F 0 "D2" H 7750 3550 50  0000 C CNN

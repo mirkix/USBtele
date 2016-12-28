@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.5-e0-6337~49~ubuntu16.04.1)
 
   (general
     (links 24)
@@ -13,6 +13,12 @@
   )
 
   (page A4)
+  (title_block
+    (title "USB FrSky SmartPort adapter ")
+    (date 2016-12-28)
+    (rev 1.0)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -65,7 +71,7 @@
     (grid_origin 149.9 113)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010fc_80000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
